@@ -6,11 +6,12 @@
   ],
   "description": "A simple web component with Polymer. A tooltip.",
   "homepage": "https://github.com/KeoH/keoh-tooltip",
+  "repository": "https://github.com/KeoH/keoh-tooltip.git",
   "main": "keoh-tooltip.html",
   "private": false,
   "keywords": [
     "Polymer",
-    "webComponent",
+    "Web Components",
     "tooltip"
   ],
   "license": "MIT",
