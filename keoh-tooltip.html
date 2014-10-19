@@ -1,0 +1,15 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<polymer-element name="keoh-tooltip" attributes="text">
+	<template>
+		<link rel="stylesheet" href="keoh-tooltip.css">
+		<div class="tooltip">
+			<content>{{text}}</content>
+		</div>
+	</template>
+	<script>
+	Polymer({
+		text: ""
+	});
+	</script>
+</polymer-element>

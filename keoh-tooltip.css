@@ -1,0 +1,24 @@
+.tooltip:before{
+	content: " ";
+	border: 6px solid black;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	display: block;
+	position: absolute;
+	top: -15px;
+	width: 3px;
+	height: 3px;
+}
+.tooltip{
+	font-size: 13px;
+	position: absolute;
+	display: none;
+	color: black;
+	top: 40px;
+	background: white;
+	left: 20px;
+	border: 1px solid black;
+	padding: 10px;
+	vertical-align: top;
+}

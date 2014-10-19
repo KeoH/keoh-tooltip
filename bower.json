@@ -1,0 +1,27 @@
+{
+  "name": "keoh-tooltip",
+  "version": "0.0.1",
+  "authors": [
+    "Francisco Manzano <keoh77@gmail.com>"
+  ],
+  "description": "A simple web component with Polymer. A tooltip.",
+  "homepage": "https://github.com/KeoH/keoh-tooltip",
+  "main": "keoh-tooltip.html",
+  "private": false,
+  "keywords": [
+    "Polymer",
+    "webComponent",
+    "tooltip"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.4.2"
+  }
+}
