@@ -30,6 +30,27 @@ Now you can use 'keoh-tooltip' in this html file. You must put it inside of anot
 		<keoh-tooltip>Message in the tooltip</keoh-tooltip>
 	</h1>
 
+The tooltip's content could be what you want. You can put other html elements. You can use like a auxiliar menu if you want.
+
+##Display the tooltip
+
+The tooltip is hidden by default, (display: none;). You decide when the tooltip must appear. An example:
+
+In the html
+
+	<h1 class="title">
+		Title of the page
+		<keoh-tooltip class="tip">Message in the tooltip</keoh-tooltip>
+	</h1>
+
+In the css:
+
+	.title:hover .tip::shadow .tooltip{
+		color: red;
+		display: block;
+	}
+	
+The tooltip will appear in the hover event in h1 element.
 
 ###Position
 
