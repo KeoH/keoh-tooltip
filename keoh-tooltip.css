@@ -1,12 +1,9 @@
 .tooltip:before{
 	content: " ";
 	border: 6px solid black;
-	border-top-color: transparent;
-	border-right-color: transparent;
-	border-left-color: transparent;
 	display: block;
 	position: absolute;
-	top: -15px;
+	
 	width: 3px;
 	height: 3px;
 }
@@ -15,10 +12,44 @@
 	position: absolute;
 	display: none;
 	color: black;
-	top: 40px;
 	background: white;
-	left: 20px;
 	border: 1px solid black;
 	padding: 10px;
-	vertical-align: top;
+}
+
+.bottom:before{
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	top: -15px;
+}
+
+.bottom{
+	left: 20px;
+	top: 100%;
+}
+
+.top:before{
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	bottom: -15px;
+}
+
+.top{
+	left: 20px;
+	bottom: 100%;
+}
+
+.right:before{
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	
+	left: -16px;
+}
+
+.right{
+	left: 105%;
+	top: 0;
 }

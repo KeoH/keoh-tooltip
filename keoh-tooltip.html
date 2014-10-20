@@ -1,15 +1,16 @@
 <link rel="import" href="../polymer/polymer.html">
 
-<polymer-element name="keoh-tooltip" attributes="text">
+<polymer-element name="keoh-tooltip" attributes="text position">
 	<template>
 		<link rel="stylesheet" href="keoh-tooltip.css">
-		<div class="tooltip">
+		<div class="tooltip {{position}}">
 			<content>{{text}}</content>
 		</div>
 	</template>
 	<script>
 	Polymer({
-		text: ""
+		text: "",
+		position: "bottom"
 	});
 	</script>
 </polymer-element>
